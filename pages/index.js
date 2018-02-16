@@ -1,8 +1,12 @@
+import Header from '../components/header';
+import withMUI from '../shared/MUI/withMUI';
+
 const Index = ({title = "Hello from Next.js!!"}) => (
     <div>
-        <h2>{title}</h2>
+        <Header/>
+        <h2>{title} Bouamar</h2>
     </div>
 );
 
 
-export default Index;
+export default withMUI(Index);

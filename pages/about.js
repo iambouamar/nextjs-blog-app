@@ -1,6 +1,6 @@
 const About = ({title = "Hello from About!!"}) => (
     <div>
-        <h2>{title}</h2>
+        <h2>{title} Bouamar</h2>
     </div>
 );
 
