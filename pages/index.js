@@ -12,7 +12,7 @@ const Index = ({ posts }) => (
                 <Card key={x.id}>
                     <CardHeader title={x.title} />
                     <CardText>
-                        <RaisedButton label="Click to view post!" fullWidth={true} />
+                        <RaisedButton label="Click to view post!" fullWidth={true} primary={true}/>
                     </CardText>
                 </Card>
                 )
