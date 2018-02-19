@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
-    "start": "next start",
-    "buid": "next build"
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
   },
   "keywords": [],
   "author": "Bouamar Elouahhabi",
